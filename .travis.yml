@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: GGmghPeKlaIZ/XOam9klq+91JEJeUoz09s2Q2QkkFIMEFj5WvxCWgEn89s6kbdqig2RhmgKRa+i2fMOIt1l5JoJGQGV1vJ0+e1myguov4cMEkxLzPl+blmglXP+fM3dRw7/0yNiDFc17Qnz25+5CAHsLqpXV2kqvLuv8MRgzlAfXDFlRRMH5WltCmLEIcb40GrnNNxzSGhU/NzP3rLVWN4bxxH2HKujjeS/t3WIwpo2xCYtqxPXfks+/sdPViWT394qy5aa1MB1EFY+qy6l3kpncjYdrQVy3sP+uXENqgjxxq8ulL9dXqeuDZ5M3zwWhvwn3uEEaa/w310nhugnPei06qVyQ0pd3Ipy5m/O99vvzQwEUnLDPJCb4LgiRYuXmPbRunBc5Qz9rINT9EIUJk/8+o/5hLGe24JB28hpeAF5dDfawDc/O5hcJwhHedgaDqwvUsRgeuCFyk1LpNXKRuvyPc/88u1Em8am1aLKARwxnyZH1V/gwZdLLBNMncfO41zhTldszQkMjpXd+d+S6OeYKKUAt5FkBjE2osI1wNTrabZ2KMHsUk9H92eiueKR2hRIStDQwPYZTlV8I8gcYWI1lqn3KFyfTSLx5V9FX+vq/l6P/XNPcDmP2iESuDQaR9IXEZMDcnhMAtjB/0TkvzqIyChgQZPrQDt1iYsFQP/w=
+  app: infinite-citadel-29239
+  on:
+    repo: lalmeida89/testing-travis
